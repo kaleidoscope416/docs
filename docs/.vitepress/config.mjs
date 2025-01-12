@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "my awesome project",
   description: "a vitepress web",
-  base:'',
+  base: "/docs-demo/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
