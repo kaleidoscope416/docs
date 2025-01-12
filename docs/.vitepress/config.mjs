@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "my awesome project",
+  title: "kaleidoscop416",
   description: "a vitepress web",
   base: "/docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      
     ],
 
     sidebar: [
@@ -23,7 +23,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/kaleidoscope416' }
+    ],
+    footer:{
+      copyright: "Copyright @ 2025 kaleido"
+    }
+    
   }
+ 
 })

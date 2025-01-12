@@ -3,23 +3,14 @@
 layout: home
 
 hero:
-  name: "my awesome project"
-  text: "a vitepress web"
-  tagline: My great project tagline
+  name: "What goes up must come down"
+  
+  
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GITHUB
+      link: https://github.com/kaleidoscope416
+    
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+
 
