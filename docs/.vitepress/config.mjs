@@ -7,20 +7,33 @@ export default defineConfig({
   base: "/docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      
-    ],
+    nav: {
+      '/CN':{
+        text: 'CN',link: '/CN/chapter 1.md'
+      },
+      '/rust':{
+        text: 'rust',link: '/rust/1.md'
+      }
+    },
 
-    sidebar: [
-      {
-        text: 'Examples',
+    sidebar: {
+      '/CN':{
+        text: 'CN',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'chapter 1', link: '/CN/chapter 1.md'},
+        {text: 'chapter 2', link: '/CN/chapter 2.md'}
+           
+        ]
+      },
+      '/rust':{
+        text: 'rust',
+        items: [
+          { text: '1', link: '/rust/1.md'},
+        {text: '2', link: '/rust/2.md'}
+           
         ]
       }
-    ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/kaleidoscope416' }
