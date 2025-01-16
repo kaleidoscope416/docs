@@ -11,9 +11,10 @@ export default defineConfig({
       '/CN':{
         text: 'CN',link: '/CN/chapter 1.md'
       },
-      '/rust':{
-        text: 'rust',link: '/rust/1.md'
+      '/rustlings':{
+        text: 'rustlings',link: '/rustlings/variable.md'
       }
+
     },
 
     sidebar: {
@@ -26,10 +27,11 @@ export default defineConfig({
         ]
       },
       '/rust':{
-        text: 'rust',
+        text: 'rustlings',
         items: [
-          { text: '1', link: '/rust/1.md'},
-        {text: '2', link: '/rust/2.md'}
+        { text: 'variable', link: '/rustlings/variable.md'},
+        {text: 'function', link: '/rustlings/function.md'},
+        {text: 'if', link: '/rustlings/if.md'}
            
         ]
       }
