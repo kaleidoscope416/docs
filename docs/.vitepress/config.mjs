@@ -31,8 +31,11 @@ export default defineConfig({
         items: [
         { text: 'variable', link: '/rustlings/variable.md'},
         {text: 'function', link: '/rustlings/function.md'},
-        {text: 'if', link: '/rustlings/if.md'}
-           
+        {text: 'if', link: '/rustlings/if.md'} ,
+        {text: 'primitive-types', link: '/rustlings/primitive-types.md'},
+        {text: 'move_semantics', link: '/rustlings/move_semantics.md'} ,
+        {text: 'vector', link: '/rustlings/vec.md'} ,
+        {text: 'struct', link: '/rustlings/struct.md'} ,
         ]
       }
     },
